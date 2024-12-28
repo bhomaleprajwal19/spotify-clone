@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify -ray</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
+  </head>
+
+  <body>
+    <div class="container flex bg-black">
+      <div class="left">
+        <div class="home bg-grey rounded m-1 p-1">
+          <div class="logo invert"><img src="logo.svg" alt="Spotify" /></div>
+          <div class="close">
+            <img id="cross-png" src="cross.png" alt="cross">
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="search" />Search</li>
+          </ul>
+        </div>
+        <div class="library bg-grey rounded m-1 p-1">
+          <div class="library-img">
+            <img class="invert" src="library.svg" alt="library" />
+            <p>library</p>
+          </div>
+          <div class="song-list">
+            <div class="song-1 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+              <p>Apna Bana Le - Arijit Singh</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg1" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>
+              
+            </div>
+            <audio
+              id="song1"
+              src="songs/Apna Bana Le - Arijit Singh.mp3"
+            ></audio>
+            <div class="song-2 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+             <p>Jogi</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg2" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+            </svg>
+            
+            </div>
+            <audio id="song2" src="songs/Jogi.mp3"></audio>
+            <div class="song-3 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+             <p> Makhna - Asees Kaur </p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg3" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+            </svg>
+            
+            </div>
+            <audio id="song3" src="songs/Makhna - Asees Kaur.mp3"></audio>
+            <div class="song-4 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+              <p>Ve Maahi -Arijit Singh & Asees Kaur</p>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg4" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+              </svg>              
+            </div>
+            <audio
+              id="song4"
+              src="songs/Ve Maahi -Arijit Singh & Asees Kaur _ Tanishk Bagchi.mp3"
+            ></audio>
+            <div class="song-5 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+             <p> Nazm Nazm -Arko</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg5" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+            </svg>
+            
+            </div>
+            <audio id="song5" src="songs/Nazm Nazm -Arko.mp3"></audio>
+            <div class="song-6 song-p">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-music-note-beamed"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13s1.12-2 2.5-2 2.5.896 2.5 2m9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2"
+                />
+                <path fill-rule="evenodd" d="M14 11V2h1v9zM6 3v10H5V3z" />
+                <path
+                  d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4z"
+                />
+              </svg>
+             <p> Zaalima</p>
+             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" stroke="currentColor" class="bi bi-play-circle svg6 " viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/>
+            </svg>
+            
+            </div>
+            <audio id="song6" src="songs/Zaalima - Arijit Singh.mp3"></audio>
+          </div>
+          <div class="footer">
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/safetyandprivacy/"
+                >Safety & Privacy Center</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/"
+                >Privacy Policy</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                >Cookies</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"
+                >About Ads</a
+              >
+            </div>
+            <div>
+              <a href="https://www.spotify.com/in-en/accessibility/"
+                >Accessibility</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right bg-grey">
+        <div class="header">
+          <div class="nav invert">
+              <img class="hamburger" src="hamburger.svg" alt="hamburger">
+            <div class="nav-svg">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-left invert"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right invert"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </div> 
+          </div>
+          <div class="buttons">
+            <button class="signup-btn">Sign up</button>
+            <button class="login-btn">Log in</button>
+          </div>
+        </div>
+        <div class="spotifyPlaylist">
+          <h1>Spotify Playlist</h1>
+          <div class="cardContainer">
+            <div class="card " id="card1">
+              <div class="play">
+                <div class="svg-container">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-encore-id="icon"
+                    role="img"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    class="Svg-sc-ytk21e-0 bneLcE"
+                  >
+                    <path
+                      d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <img
+              src="https://mosaic.scdn.co/300/ab67616d00001e026259375c88ed15dbb57a951bab67616d00001e026539071e0f1833190a491d4dab67616d00001e027b93fd8b0ade33ceb9d536deab67616d00001e028634403946cb8f08b83e4c40""
+              alt="">
+              <h3>Most Listened Songs On Spotify - Hindi</h3>
+              <p>by sami</p>
+            </div>
+            <div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div>
+            <div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div>
+            <div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div>
+            <div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div><div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div><div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div><div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div><div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div><div class="card">
+              <div class="play"><div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 24 24" class="Svg-sc-ytk21e-0 bneLcE"><path d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z"></path></svg></div></div>
+              <img src="playlist.jpg" alt="music">
+              <h3>Playlist</h3>
+              <p>artist</p>
+            </div>
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="seekbar">
+            
+            <div class="circle"></div>
+          </div>
+          <div class="info">
+          <div class="song-info">Apna Bana Le</div>
+          <div class="song-btn">
+           <div  id="prev">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              data-encore-id="icon"
+              role="img"
+              width="30"
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              class="Svg-sc-ytk21e-0 dYnaPI"
+            >
+              <path
+                d="M3.3 1a.7.7 0 0 1 .7.7v5.15l9.95-5.744a.7.7 0 0 1 1.05.606v12.575a.7.7 0 0 1-1.05.607L4 9.149V14.3a.7.7 0 0 1-.7.7H1.7a.7.7 0 0 1-.7-.7V1.7a.7.7 0 0 1 .7-.7h1.6z"
+              ></path>
+            </svg>
+          </div>
+          <div id="play">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="30" data-encore-id="icon" role="img" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-ytk21e-0 dYnaPI"><path d="M3 1.713a.7.7 0 0 1 1.05-.607l10.89 6.288a.7.7 0 0 1 0 1.212L4.05 14.894A.7.7 0 0 1 3 14.288V1.713z"></path></svg>
+          </div>
+          <div id="next">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              data-encore-id="icon"
+              role="img"
+              width="30"
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              class="Svg-sc-ytk21e-0 dYnaPI"
+            >
+              <path
+                d="M12.7 1a.7.7 0 0 0-.7.7v5.15L2.05 1.107A.7.7 0 0 0 1 1.712v12.575a.7.7 0 0 0 1.05.607L12 9.149V14.3a.7.7 0 0 0 .7.7h1.6a.7.7 0 0 0 .7-.7V1.7a.7.7 0 0 0-.7-.7h-1.6z"
+              ></path>
+            </svg>
+          </div>
+          </div>
+          <div class="vt">
+              <div class="time"><span class="current-time">0:00</span> / <span class="duration-time">3:30</span></div>
+              <div class="volume">
+              <img src="volume-loud-svgrepo-com.svg" alt="volume button">
+              <div class="range">
+                <input type="range" name="volume">
+              </div>
+              </div>
+          </div>
+        </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
